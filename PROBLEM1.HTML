@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<title>Parallax Website</title>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        font: 400 15px/1.8 "Lato", sans-serif;
+        color: #777;
+      }
+
+      .bgimg-1,
+      .bgimg-2,
+      .bgimg-3 {
+        position: relative;
+        opacity: 0.65;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .bgimg-1 {
+        background-image: url("http://surl.li/cqpny");
+        min-height: 100%;
+      }
+
+      .bgimg-2 {
+        background-image: url("http://surl.li/cqpoe");
+        min-height: 400px;
+      }
+
+      .bgimg-3 {
+        background-image: url("http://surl.li/cqpof");
+        min-height: 400px;
+      }
+
+      .caption {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+      }
+
+      .caption span.border {
+        background-color: #111;
+        color: #fff;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 10px;
+      }
+
+      h3 {
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font: 20px "Lato", sans-serif;
+        color: #111;
+      }
+
+      /* Turn off parallax scrolling for tablets and phones */
+      @media only screen and (max-device-width: 1024px) {
+        .bgimg-1,
+        .bgimg-2,
+        .bgimg-3 {
+          background-attachment: scroll;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="bgimg-1">
+      <div class="caption">
+        <span class="border">FEEL THE MUSIC</span>
+      </div>
+    </div>
+
+    <div
+      style="
+        color: #777;
+        background-color: white;
+        text-align: center;
+        padding: 50px 80px;
+        text-align: justify;
+      "
+    >
+      <h3 style="text-align: center">Music is my Life</h3>
+      <p>
+        Music is the soul of life and gives immense peace to us. In the words of
+        William Shakespeare, “If music is the food of love, play on, Give me
+        excess of it; that surfeiting, The appetite may sicken, and so die.”
+        Thus, Music helps us in connecting with our souls or real self.Music has
+        great qualities of healing a person emotionally and mentally. Music is a
+        form of meditation. While composing or listening music ones tends to
+        forget all his worries, sorrows and pains. But, in order to appreciate
+        good music, we need to cultivate our musical taste. It can be cited that
+        in the Dwapar Yug, the Gopis would get mesmerized with the music that
+        flowed from Lord Krishna’s flute. They would surrender themselves to
+        Him. Also, the research has proved that the plants which hear the Music
+        grow at a faster rate in comparison to the others.
+      </p>
+    </div>
+
+    <div class="bgimg-2">
+      <div class="caption">
+        <span
+          class="border"
+          style="background-color: transparent; font-size: 25px; color: #f7f7f7"
+          >POWERS OF MUSIC</span
+        >
+      </div>
+    </div>
+
+    <div style="position: relative">
+      <div
+        style="
+          color: #ddd;
+          background-color: #282e34;
+          text-align: center;
+          padding: 50px 80px;
+          text-align: justify;
+        "
+      >
+        <p style="text-align: center">
+          It has the power to cure diseases such as anxiety, depression,
+          insomnia, etc.
+        </p>
+      </div>
+    </div>
+
+    <div class="bgimg-3">
+      <div class="caption">
+        <span
+          class="border"
+          style="background-color: transparent; font-size: 25px; color: #f7f7f7"
+          >THE UNIVERSAL LANGUAGE</span
+        >
+      </div>
+    </div>
+
+    <div style="position: relative">
+      <div
+        style="
+          color: #ddd;
+          background-color: #282e34;
+          text-align: center;
+          padding: 50px 80px;
+          text-align: justify;
+        "
+      >
+        <p style="text-align: center">
+          Music is known as the Universal language because it knows no
+          boundaries. It flows freely beyond the barriers of language, religion,
+          country, etc. Anybody can enjoy music irrespective of his age.
+        </p>
+      </div>
+    </div>
+
+    <div class="bgimg-1">
+      <div class="caption">
+        <span class="border">MOVE INTO THE WORLD OF MUSIC</span>
+      </div>
+    </div>
+  </body>
+</html>

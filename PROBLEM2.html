@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    * {
+        box-sizing: border-box
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .navbar {
+        width: 100%;
+        background-color: YELLOW;
+        overflow: auto;
+       
+
+    }
+
+    .navbar a {
+        float: LEFT;
+        padding: 2%;
+        color: BLACK;
+        text-decoration: none;
+        font-size: 150%;
+        width: 20%;
+        /* FIVE links of equal widths */
+        text-align: center;
+        grid-gap: 10px;
+    }
+
+    .navbar a:hover {
+        background-color: GREEN;
+    }
+
+
+    @media screen and (max-width: 500px) {
+        .navbar a {
+            float: none;
+            display: block;
+            width: 100%;
+            text-align: left;
+        }
+    }
+
+    .row {
+        display: flex;
+        padding-top: 2%;
+    }
+
+    /* Create four equal columns that sits next to each other */
+    .column {
+        flex: 25%;
+        padding: 2%;
+    }
+
+    .taco {
+        width: 100%;
+        padding-top: 1%;
+    }
+
+    .pexel {
+        background-size: cover;
+        width: 59%;
+        margin: 1%;
+    }
+
+    .price {
+        float: right;
+        position: relative;
+        bottom: 33vw;
+        width: 38%;
+    }
+
+    .price2 {
+        float: right;
+        position: relative;
+        bottom: 16vw;
+        width: 38%;
+        left: 38%;
+    
+    }
+
+    .column {
+        display: flex;
+    }
+
+    .t1 {
+        margin-right: 4%;
+    }
+
+    .W1 {
+        margin-left: 4%;
+    }
+
+    .M1 {
+        margin-left: 4%;
+
+    }
+</style>
+
+<body style="background-image: url('/gradient-background-instagram-free-vector.jpg');
+">
+
+    <div class=" navbar">
+        <a href="#Tacos">Tacos</a>
+        <a href="#Beers">Beers</a>
+        <a href="#Vines">Vines</a>
+        <a href="#Dessert">Dessert</a>
+        <a href="#Reservations">Reservations</a>
+    </div>
+    <div>
+        <img class="pexel" src="/pexels-pixabay-461198.jpg" alt="pexel food">
+
+    </div>
+    <div>
+        <img class="price" src="/$1.99.png" alt="">
+        <img class="price2" src="/3.99.png" alt="">
+    </div>
+    <div class="column">
+        <img class="t1" src="tacos.png" alt="tacos" style="width: 23vw;">
+
+        <img class="B1" src="beer.png" alt="Beers" style="width:23vw">
+
+        <img class="W1" src="wine.png" alt="wine" style="width:23vw">
+
+        <img class="M1" src="Music.png" alt="Music" style="width: 23vw">
+    </div>
+
+    <div style="display:flex width=100%" ;>
+        <img class="taco" src="Featured Taco.png" alt="tacos">
+
+
+
+    </div>
+
+    </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="https://picsum.photos/id/1004/367/267" alt="Snow" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="https://picsum.photos/id/1003/367/267" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="https://picsum.photos/id/1005/367/267" alt="Mountains" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="https://picsum.photos/id/1010/367/267" alt="Mountains" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="https://picsum.photos/id/1011/367/267" alt="Mountains" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="https://picsum.photos/id/1032/367/267" alt="Mountains" style="width:100%">
+        </div>
+
+    </div>
+    </div>
+
+
+</body>
+
+</html>
